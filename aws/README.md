@@ -38,17 +38,6 @@ Other things that will be configured by the Terraform code
 * Content of `/etc/hosts` set up on all nodes for easy use of `ssh` command from `student-node`.
 * Generation and distribution of a key pair for logging into instances via SSH.
 
-## Get Started
-
-Let's go ahead and get the infrastructure built!
-
-[Click here](https://kodekloud.com/topic/playground-aws/) to start a playground, and click `START LAB` to request a new AWS Cloud Playground instance. After a few seconds, you will receive a URL and your credentials to access AWS Cloud console.
-
-Note that you must have KodeKloud Pro subscription to run an AWS playground. If you have your own AWS account, this should still work, however you will bear the cost for any resources created until you delete them.
-
-We will run this entire lab in AWS CloudShell which is a Linux terminal you run inside the AWS console and has most of what we need preconfigured, such as git and the AWS credentials needed by Terraform. [Click here](https://us-east-1.console.aws.amazon.com/`student-node`/home?region=us-east-1) to open CloudShell.
-
-
 ## Install Terraform
 
 From the CloudShell command prompt...

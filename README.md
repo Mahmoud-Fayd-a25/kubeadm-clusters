@@ -2,7 +2,7 @@
 
 In this section we present various labs for building kubeadm clusters
 
-* AWS - Using KodeKloud AWS Playground
+* Using AWS 
 
     In these labs terraform is used to provision the virtual machines, leaving you to configure the cluster.
     * [3 Node Cluster](./aws/)
